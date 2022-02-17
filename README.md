@@ -2,8 +2,9 @@
 
 Simple send and receive examples for Adafruit's RFM69HCW Radio module with Arduino Micro and Teensy 
 
-Teensy version of Radiohead library:
-https://github.com/PaulStoffregen/RadioHead
+Prepare radio as described here: https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts
+
+Teensy version of Radiohead library: https://github.com/PaulStoffregen/RadioHead
 
 The only change made to the given examples was to initialise the HCW radio by adding a 'true' arguement to the following line:
 
