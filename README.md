@@ -10,6 +10,6 @@ The only change made to the given examples was to initialise the HCW radio by ad
 
 rf69.setTxPower(20, true);  // range from 14-20 for power, 2nd arg must be true for 69HCW
 
-Circuit examples also included as Fritzing (fzz) files and images
+Circuit examples also included as Fritzing (fzz) files and png image
 
 
