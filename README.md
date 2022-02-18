@@ -6,7 +6,7 @@ Prepare radio as described here: https://learn.adafruit.com/adafruit-rfm69hcw-an
 
 Circuit examples also included as Fritzing (fzz) files and png image
 
-This is an SPI serial communication device so you need to connect to the Teensy/Arduino's SPI pins (check the Teensy pinout diagram!) and the others described in the code
+This is an SPI serial communication device so you need to connect to the Teensy/Arduino's SPI pins (check the Teensy/Arduino pinout diagram!) and the others described in the code
 
 Teensy version of Radiohead library: https://github.com/PaulStoffregen/RadioHead
 
