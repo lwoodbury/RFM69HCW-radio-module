@@ -5,7 +5,7 @@ Simple send and receive examples for Adafruit's RFM69HCW Radio module with Ardui
 Prepare radio as described here: https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts
 
 Circuit examples also included as Fritzing (fzz) files and png image
-This is an SPI serial communication device so you need to connect to the Teensy's SPI pins (check the Teensy pinout diagram!) and the others described in the code
+This is an SPI serial communication device so you need to connect to the Teensy/Arduino's SPI pins (check the Teensy pinout diagram!) and the others described in the code
 
 Teensy version of Radiohead library: https://github.com/PaulStoffregen/RadioHead
 
