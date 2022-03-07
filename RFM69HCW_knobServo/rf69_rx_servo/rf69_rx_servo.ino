@@ -94,12 +94,12 @@ void loop() {
       if (!len) return;
       buf[len] = 0;
       Serial.print("Received ");
-      int val = atoi(buf);
+      char cbuf[len +1] = {};
+      memcpy(cbuf, buf, len);
+      int val = atoi(cbuf);
       Serial.println(val);
       myservo.write(val);                  // sets the servo position according to the scaled value 
       delay(15);                           // waits for the servo to get there 
+      }
   }
- 
- 
-
 }

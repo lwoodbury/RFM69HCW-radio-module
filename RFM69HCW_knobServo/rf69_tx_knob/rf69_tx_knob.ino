@@ -18,7 +18,7 @@
 int potpin = 0;  // analog pin used to connect the potentiometer
 int val;    // variable to read the value from the analog pin 
 int lastVal;  //to store last reading 
-char radiopacket[2] = "180"; //variable to hold our radio message
+char radiopacket[20] = "180"; //variable to hold our radio message
 /************ Radio Setup ***************/
 
 // Change to 434.0 or other frequency, must match RX's freq!
@@ -90,7 +90,7 @@ void loop() {
   if(val != lastVal){ //if function to stop sending unless val changes
     itoa(val, radiopacket, 10); //convert integer number to string
     Serial.print("Sending "); Serial.println(radiopacket);
-    rf69.send((uint8_t *)radiopacket, strlen(radiopacket));
+    rf69.send((uint8_t *)radiopacket, strlen(radiopacket)+1);
     rf69.waitPacketSent();
     lastVal = val; //set lastVal for comparison in 'if' statement
   }
